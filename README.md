@@ -1,2 +1,2 @@
-# ReduxOnlineShoppingCart
+# ReduxOnlineStoreandCart
 Created with CodeSandbox
