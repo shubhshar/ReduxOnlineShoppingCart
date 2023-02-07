@@ -60,7 +60,7 @@ img {
 }
 @media screen and (max-width: 1224px) {
   .cartCount {
-    margin-left: 5px;
+    margin-left: 10px;
   }
 }
 .navLink {
