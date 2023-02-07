@@ -19,14 +19,14 @@ const Navbar = () => {
             Online Store
           </a>
         </span>
-        <div>
+        <div className="navWrapper">
           <Link className="navLink" to="/">
             Home
           </Link>
           <Link className="navLink" to="/Cart">
             Cart
           </Link>
-          <span className="cartCount">Cart items: {addedItems.length}</span>
+          <span className="cartCount">Items: {addedItems.length}</span>
         </div>
       </div>
     </>
