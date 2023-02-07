@@ -58,7 +58,11 @@ img {
   text-transform: uppercase;
   margin-left: 40px;
 }
-
+@media screen and (max-width: 1224px) {
+  .cartCount {
+    margin-left: 5px;
+  }
+}
 .navLink {
   text-decoration: none;
   color: black;
