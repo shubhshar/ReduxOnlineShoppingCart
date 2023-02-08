@@ -3,9 +3,9 @@ import { useDispatch } from "react-redux";
 import { add } from "../store/cartSlice";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
   const dispatch = useDispatch();
 
+  const [products, setProducts] = useState([]);
   const fetchProducts = async () => {
     const res = await fetch("https://fakestoreapi.com/products"); //Api integration here
     const data = await res.json();
