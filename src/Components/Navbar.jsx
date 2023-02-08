@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  //using state.cart here to show item count added to cart
   const addedItems = useSelector((state) => state.cart);
 
   return (

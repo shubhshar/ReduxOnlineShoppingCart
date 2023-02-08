@@ -13,5 +13,6 @@ const cartSlice = createSlice({
   }
 });
 
+//We can export actions and reducers the following way if we are using createSlice.
 export const { add, remove } = cartSlice.actions;
 export default cartSlice.reducer;

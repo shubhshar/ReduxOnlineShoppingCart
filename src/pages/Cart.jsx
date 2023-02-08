@@ -3,9 +3,10 @@ import { useSelector, useDispatch } from "react-redux";
 import { remove } from "../store/cartSlice";
 
 const Cart = () => {
-  const products = useSelector((state) => state.cart);
+  const products = useSelector((state) => state.cart); //products contain all product added to cart
   const dispatch = useDispatch();
 
+  //Removing the product using product ID
   const handleRemove = (productId) => {
     dispatch(remove(productId));
   };
