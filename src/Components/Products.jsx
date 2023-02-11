@@ -4,7 +4,6 @@ import { add } from "../store/cartSlice";
 
 const Products = () => {
   const dispatch = useDispatch();
-
   const [products, setProducts] = useState([]);
   const fetchProducts = async () => {
     const res = await fetch("https://fakestoreapi.com/products"); //Api integration here
